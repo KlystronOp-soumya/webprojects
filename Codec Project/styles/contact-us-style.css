@@ -1,0 +1,128 @@
+/*contact-us-style style*/
+
+body 
+{
+	 background:url(' ../images/pic9.jpeg');
+	 background-size:cover;
+	 font-family:Arial;
+	 margin:absolute;
+	
+}
+
+h2
+{
+  text-align:center;
+  border-bottom:2px dotted;
+}
+
+h2:hover {
+  
+  font-size:25px;
+  text-transform:bold;
+  color:yellow;
+  transition:0.6s ease;
+}
+
+h4{
+	background:transparent;
+	border:2px solid;
+	border-color:white;
+	color:white;
+	font-size:12;
+}
+h4:hover{
+	background-color:aqua;
+	border:solid 1px;
+	transition:0.5s elevation;
+	color:white;
+	font-size:13;
+}
+
+
+.wrap
+{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.7);/*less value less opacity*/
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+	
+}
+
+label
+{
+	 
+	text-align:center;
+}
+
+input[type=email]
+{
+	border:none;
+	border-bottom:1px solid white;
+	background:transparent;
+	outline:none;
+	height:24px;
+	color:#fff;
+	font-size:15px;
+}
+
+input[type=text]
+{
+	border:none;
+	border-bottom:1px solid white;
+	background:transparent;
+	outline:none;
+	height:28px;
+	color:#fff;
+	font-size:15px;
+}
+button
+{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	outline:none;
+	border:none;
+	background:#60adde;
+	opacity:0.5;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+}
+
+button:hover
+{
+	
+	background:red;
+	opacity:0.9;
+}
+
+textarea
+{
+height:190px;
+  width:290px;
+  border:1px solid #fff;
+  background:transparent;
+  color:white;
+  font-size:16px;
+}
+
+textarea:hover
+{
+  background-color:black;
+  opacity:0.5;  
+}
+
+
+.foot
+{
+	background-color:aqua;
+	font-family:Ariel;
+	font-size:8;
+	margin-top:50px;
+}
+

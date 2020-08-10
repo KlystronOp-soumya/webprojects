@@ -1,0 +1,18 @@
+<button id="thali" onClick="reply_click(this.id)">B1</button>
+<button id="snacks" onClick="reply_click(this.id)">B2</button>
+<button id="grilled" onClick="reply_click(this.id)">B3</button>
+
+<script type="text/javascript">
+function reply_click(clicked_id)
+{
+  if(clicked_id=="thali")
+  {
+    alert(clicked_id);
+	window.location.href="thali.html";
+  
+  }
+  
+   else
+   alert('hello '+clicked_id);
+}
+</script>
