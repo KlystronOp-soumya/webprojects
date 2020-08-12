@@ -1,0 +1,62 @@
+<html lang="en">
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register here</title>
+
+
+
+
+
+<script>
+
+function myFunction()
+{
+
+    var slider = document.getElementById("myRange");
+     var output = document.getElementById("op");
+      output.innerHTML = slider.value;
+     slider.oninput = function() 
+    {
+        output.innerHTML = this.value;
+        }
+ }
+               
+ </script>
+</head>
+ 
+<body>
+   <form action="includes/register.inc.php" method="post">
+   <label>Name</label>
+   <input type="text" name="uname" placeholder="your name" maxlength="25" required/><br>
+   <label>gender</label>
+   <input type="radio" name="ugender" value="Male">Male<br>
+   <input type="radio" name="ugender" value="Female">Female<br>
+   <input type="radio" name="ugender" value="Others">Others<br>
+   <input type="range" min="18" max="100" value="18" class="slider" name="uage" id="myRange" onchange="myFunction()" required><br>
+   <label>Age:</label><span id="op"></span><br>
+   <label>weight</label>
+   <input type="text" placeholder="your weight" name="uweight" required/>
+   <label>height</label>
+   <input type="text" name="uheight" placeholder="format:XX'XX " required/>
+   <label>Email</label>
+   <input type="email" name="umail" placeholder="your mail" required/>
+   <label>Password</label>
+   <input type="password" placeholder="unique password" maxlength="15" name="upassword" required/>
+   <button type="submit" name="sbmt">Register</button>
+  </form> 
+ </body>
+</html>  
+   
+
+
+
+
+
+
+     
+   
+
+
+
+   
+
