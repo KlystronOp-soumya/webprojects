@@ -1,0 +1,283 @@
+/*index-style css*/
+
+
+/*styling the body part*/
+body
+{
+	background:url(" ../images/back2.jpg") no-repeat center fixed;
+	background-size:cover;
+	margin:auto;
+	background-size:cover;
+	font-family:sans-serif;
+	background-blend-mode:lighten;
+}
+
+.wrap
+{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:rgba(0,0,0,0.5);
+	background-position:cover;
+}
+.head{
+   float:left; 
+  	color:white;
+	/*border:2px solid silver;*/
+	font-weight:bold;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+   text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 40px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 30px #ff4da6, 0 0 30px #ff4da6, 0 0 30px #ff4da6;
+  }
+}
+
+
+header
+{
+	width:75%;
+	margin:auto;
+	font-family:cursive;
+	
+}
+
+
+
+
+nav
+{
+	/* background-color:white; */
+	float:right;
+}
+
+li
+{
+	/*background-color:red;*/
+   display:inline; /*for horizental navbar*/
+   padding:16px;   
+}
+
+li a
+{
+  color:#fff;
+  border-right:1px solid white;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:20px;  
+}
+
+/* The DropDown Menu*/
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
+}
+.dropdown img
+
+{
+	/*the burger pic*/
+	width:32px;
+	padding-left:100%;
+	
+}
+
+
+.dropdown-content {
+  display: none;
+ position: absolute; 
+  background:transparent;
+  border:2px solid white;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{
+  color:yellow;
+  background-color:red;
+  transition:0.5s ease;
+  font-weight:bold;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+transition:0.6s ease;  
+}
+
+.active
+{
+	color:aqua;
+	border:3px solid red;
+}
+
+
+li a:hover
+{
+	padding:8px;
+	background:red;
+	border:1px solid silver;
+	transition: 0.6s ease;
+	font-family:times new roman;
+}
+
+/*li a:visited
+{
+	color:yellow;
+	font-size:16px;
+	font-family:times new roman;
+}*/
+
+.container
+{
+	width:70%;
+	margin:auto;
+	overflow:hidden;
+	margin-top:1%; /*cant be scroll down*/
+
+	
+}
+
+.showcase h1
+{
+	padding-top:80px;
+	padding-right:250px;
+	color:red;
+	font-family:cursive;
+	text-align:center;
+}
+
+.showcase h1:hover
+{
+   	-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+  
+  @-webkit-keyframes glow {
+  from {
+   text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #3fe042, 0 0 10px #3fe042, 0 0 10px #3fe042, 0 0 10px #3fe042, 0 0 40px #3fe042
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #3f3ce6, 0 0 20px #3f3ce6, 0 0 30px #3f3ce6, 0 0 30px #3f3ce6, 0 0 30px #3f3ce6, 0 0 30px #3f3ce6;
+  }
+}
+
+ 
+
+.showcase h3
+{
+	padding-right:250px;
+	color:white;
+	text-align:center;
+	letter-spacing:2px;
+	font-weight:bold;
+}
+
+.category
+{
+	color:#fff;
+	margin-top:5%;
+	display:flex;
+	text-align:center;
+	font-family:cursive;
+	margin-right:18%;
+}
+.category a:link
+{
+	/*removing the default underline and blue color*/
+	color:white;
+	text-decoration:none;
+}
+.category a:visited
+{
+	color:#ffff66;
+}
+
+ img
+{
+	width:62%;
+	border-radius:5%;
+	
+}
+/* .Thali img
+{
+   width:35%;	
+} */
+.snacks img
+{
+	width:42%;
+	border-radius:5%;
+}
+
+.chinese img
+{
+	width:72%;
+	border-radius:5%;
+}
+
+.snacks,.chinese,.grilled
+{
+	padding-left:16px;
+}
+
+
+.grilled img
+{
+	width:40%;
+	border-radius:5%;
+	padding-right:30%;
+	
+}
+.grilled p
+{
+	padding-right:25%;
+}
+
+h4
+{
+	font-size:16px;
+	margin:3%;
+}
+
+.category p:hover
+{
+	font-size:22px;
+	 color:red;
+	 font-weight:italic;
+}
+
+.footer
+{
+	
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #5f5f5f;
+   opacity:1;
+   color: white;
+   text-align: center;
+   font-size:10px;
+	
+}
+
+/* .footer:hover{
+	opacity:1;
+} */
