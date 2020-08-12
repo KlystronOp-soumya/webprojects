@@ -1,0 +1,14 @@
+.home
+{
+    height: 250px;
+    width: auto;
+    background-color: antiquewhite;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

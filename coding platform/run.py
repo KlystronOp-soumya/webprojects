@@ -1,1 +1,0 @@
-<?php echo 'hello world of php  and sum='.(2+2);?>
